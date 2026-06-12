@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vault | PlayAGame.ai</title>
+  <meta name="description" content="PlayAGame.ai Game of Gnomes browser adventure.">
+  <link rel="stylesheet" href="shared-layout.css">
+</head>
+<body data-page="vault">
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="brand-block">
+        <a class="brand-title" href="index.html">PlayAGame.ai</a>
+        <p class="brand-subtitle">Game of Gnomes</p>
+      </div>
+      <nav class="top-nav" aria-label="Primary">
+        <a class="nav-btn" href="index.html">Home</a>
+        <a class="nav-btn" href="assemble-your-team.html">Team</a>
+        <a class="nav-btn" href="choose-your-quest.html">Quests</a>
+        <a class="nav-btn" href="prepare-for-battle.html">Prepare</a>
+        <a class="nav-btn" href="begin-adventure.html">Adventure</a>
+        <a class="nav-btn" href="vault.html">Vault</a>
+        <a class="nav-btn" href="leaderboard.html">Leaderboard</a>
+        <a class="nav-btn" href="achievements.html">Achievements</a>
+        <a class="nav-btn" href="about.html">About</a>
+      </nav>
+    </header>
+    <section class="hero-panel">
+      <h1>Vault</h1>
+      <p>Review and equip your earned items.</p>
+      <div class="global-summary" data-global-summary></div>
+      <div class="page-actions"><button class="secondary-btn" data-action="reset-game">Reset Game</button></div>
+    </section>
+    <main id="vault-mount"></main>
+  </div>
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+  <script src="engine.js"></script>
+  <script src="ui-shared.js"></script>
+  <script src="page-vault.js"></script>
+</body>
+</html>
